@@ -5,7 +5,7 @@ a local machine. It installs docker, git on the remote machine.
 
 user: the user you are remoting into (ssh).
 
-remote_ipaddress: is the remote Ip address you are connecting to.
+remote_ipaddress: is the IP address you are connecting to.
 
 port_to_run: this is the port you are running the vpn on.
 
@@ -13,6 +13,6 @@ port_to_run: this is the port you are running the vpn on.
 
 # Connecting Instructions:
 
-remote_ipaddress: is the name of the remote server.
+remote_ipaddress: is the IP address of the remote server.
 
     $ . vpn_run.sh <remote_ipaddress>
