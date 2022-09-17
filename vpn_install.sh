@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 #Use run this like this $. vpn_install.sh <user> <remote_ipaddress> <port_to_run_vpn>
 #then connect $sudo openvpn --config 178.128.231.52.ovpn
-#also, may want to turn off IP6, to prevent DNS leaking $sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 
 USER=$1
 IP_ADDRESS=$2
