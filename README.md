@@ -15,4 +15,4 @@ remote_ipaddress: is the name of the remote server, its also
 the name of the .ovpn file. It turns off ipv6 as this sometimes 
 causes DNS leaks.
 
-    $ . vpn_connect.sh <remote_ipaddress>
+    $ . vpn_run.sh <remote_ipaddress>
